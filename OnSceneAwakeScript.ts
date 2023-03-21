@@ -22,7 +22,6 @@ export default class OnSceneAwakeScript extends ScriptNode {
 
 	protected override awake(): void {
 		
-		console.log("on scene awake script")
 		this.executeChildren();
 	}
 

@@ -24,8 +24,6 @@ export default class OnKeyboardEventScript extends ScriptNode {
 
 	protected override awake(): void {
 
-		console.log(`keyboard-${this.eventName.toUpperCase()}`);
-		 
 		if (!this.eventName) {
 
 			return;
