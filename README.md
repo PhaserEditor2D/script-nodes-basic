@@ -8,7 +8,7 @@ The scripts are coded in TypeScript with ES modules.
 
 ## Installing
 
-Copy the files in the `scripts/` folder and paste them into your project.
+Copy this project folder (or clone the repo) and paste it into your project's `src/` folder.
 
 ## Summary
 
