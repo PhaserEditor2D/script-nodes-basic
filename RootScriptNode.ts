@@ -32,7 +32,7 @@ export default class RootScriptNode extends ScriptNode {
 	 */
 	static getRoot(gameObject: Phaser.GameObjects.GameObject, key = "scripts") {
 
-		return (gameObject as any)[`RootScript__${key}`] as RootScript;
+		return (gameObject as any)[`RootScript__${key}`] as RootScriptNode;
 	}
 
 	/**
