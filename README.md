@@ -27,6 +27,7 @@ Contain basic/abstract functionallity. Often, you will create prefab variants of
 These scripts listen certain event. When the event is triggered, then execute the children, which are actions.
 
 * **OnEventScript** - registers to the given `eventEmitter` and listens the given `eventName` event.
+* **OnPointerDownScript** - listens the `pointerdown` event of the game object.
 
 ### Action scripts
 
