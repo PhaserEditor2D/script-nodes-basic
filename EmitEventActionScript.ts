@@ -23,7 +23,7 @@ export default class EmitEventActionScript extends ScriptNode {
 
 	/* START-USER-CODE */
 
-	execute(args?: any): void {
+	execute(...args: any[]): void {
 		
 		let emitter: Phaser.Events.EventEmitter | null | undefined;
 
@@ -66,7 +66,7 @@ export default class EmitEventActionScript extends ScriptNode {
 
 		if (emitter) {
 
-			emitter.emit(this.eventName, args);
+			emitter.emit(this.eventName, ...args);
 		}
 	}
 
