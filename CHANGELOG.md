@@ -1,4 +1,4 @@
-## v1.0.3 - Apr 24, 2023
+## v1.0.3 - Apr 27, 2023
 
 * Fixes `update()` and `awake()` events management.
 * Improves `OnEventScript`, it now can registers into different emitters: `scene.events`, `scene.input`, `scene.keyboard`, `gameObject`, etc...
