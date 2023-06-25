@@ -1,3 +1,7 @@
+## v1.0.4 - Jun 25, 2023
+
+* Migrates the **Event Name** properties of the **EmitEventActionScript** and **OnEventScript** script nodes to the new **Event** property type.
+
 ## v1.0.3 - Apr 27, 2023
 
 * Fixes `update()` and `awake()` events management.
