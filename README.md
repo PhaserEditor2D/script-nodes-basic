@@ -1,5 +1,7 @@
 # Basic Phaser Editor 2D script nodes
 
+**This project is deprecated. Check [phasereditor2d-scripts-core](./phasereditor2d-scripts-core)**
+
 This project contains a couple of Script Nodes for Phaser Editor 2D.
 
 These script nodes are very basic and may fit on any Phaser Editor 2D project.
